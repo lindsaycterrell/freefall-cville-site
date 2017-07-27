@@ -8,9 +8,9 @@ $mp3s = array_filter(
 			);
 foreach ($mp3s as $mp3) {
 	$entry = array();
-	$parts = preg_split("/\\s*\\-\\s*/", $mp3);
-	$entry['title'] = preg_replace("/\\.mp3$/", "", array_pop($parts));
-	$entry['artist'] = array_shift($parts);
+	$parts = explode("::", $mp3, 2);
+	$entry['title'] = preg_replace("/\\.mp3$/", "", $parts[1]);
+	$entry['artist'] = $parts[0];
 	$entry['mp3'] = "/playlist/" . $mp3;
 	array_push($playlist, $entry);
 	}
