@@ -317,6 +317,8 @@ fieldset[disabled] .btn-default:hover {
    ------------------- */
 .section-padding {
   padding: 115px 0; }
+  
+
 
 /* 
    PAGE LOADING CSS
@@ -905,6 +907,13 @@ header:before {
   padding: 0;
   margin-top: -70px; }
 
+.hero-sub-text{
+  font-weight: 700;
+  font-size: 40px;	
+ font-family: "Playfair Display", serif;
+text-align: center; 
+}
+
 .flex-control-nav {
   z-index: 11; }
 
@@ -1341,7 +1350,7 @@ header:before {
     color: #333; }
 
 .event-subcaption {
-  color: #908e96;
+  color: #f8f8f8;
   font-size: 18px; }
 
 .event-country {
