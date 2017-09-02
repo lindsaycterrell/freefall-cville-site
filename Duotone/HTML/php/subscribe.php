@@ -16,7 +16,7 @@
 ---------------------
 */
 
-$apiKey       = '44fe0aa7fbeaa8d7cd7e12d7a2203252-us16'; /*1. Your Mailchiimp API Key*/
+$apiKey       = 'b7459ab3fb0d7f6965f492c2e7522892-us16'; /*1. Your Mailchiimp API Key*/
 $listId       = '8c2447dc7b'; /*2. Mailchimp List ID*/
 $email        = $_POST['email'];
 $status       = 'pending'; /* 3. subscribed, pending (Double-optin) */
